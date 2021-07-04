@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  nav ul,
+  p,
+  h1, 
+  ul,
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-list a,
+  .nav-list a:visited {
+    text-decoration: none;
+
+    color: inherit;
+  }
+
+  .nav-list a:hover {
+    text-decoration: underline;
+  }    
+ 
+  .icon-description{
+    align-self: center;
+  }
+  
+  .main-layout {    
+    margin-right: 20px;
+  }
+  
+  
+.button{ 
+  display: grid;
+    background-color: blue;  
+    border-radius: 20px;    
+    margin-left: 20px;
+    margin-bottom: 330px;
+   }
+
+.tweet-list-button{
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 150px;
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+.tweet-button{
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100px;
+  font-weight: bold;   
+}
+
+.twitter-logo img{
+  margin: 20px;
+}
+
+.dot-icon{
+  display:grid;
+  justify-content: flex-end;
+}
+
+.avatar-img{
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.user-text{
+  margin:0px;
+  align-content: center;
+}
+
+.user-info{
+  margin-top: 5px;
+}
+
+.user{
+  padding: 5px;
+  font-variant: small-caps;
+  font-size: x-small;
+}
+
+.bottom-content{
+  display: grid;
+  align-content: ;
+  margin-bottom: 10px;
+}
+
+.content-container,
+.box,
+.action-buttons,
+.icons{
+      margin: 0px;
+      padding: 0px;
+    }
+
+.content-container{
+      border: 0.5px solid gray;
+      height: auto;
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+.content-container{
+  align-self: center;
+}
+
+.shining-icon{
+  display: grid;
+  justify-content: flex-end;
+}
+
+.form{
+  border: 0px;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+  .main-what-happening{
+     margin-bottom: 15px;
+}
+
+.retweet-paragraph{
+  margin-left: 60px;
+  font-size: small;
+  margin-top: 10px;
+}
+
+.icons{ 
+  margin-left: 60px;
+}
+
+.main-middle-paragraph{
+  line-height: 1px;
+  margin-top: 15px;
+}
+
+.woki-paragraph{
+  margin:10px 0px;
+}
+
+.docs-img{
+  border-radius: 10px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  height: 300px;
+  width: 300px;
+}
+
+.groupdocs-paragraph {
+  margin: 10px 0px; 
+}
+
+.groupdocs-img{
+  padding-top: 10px;
+}
+
+.bus-on-fire-img{
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+}
+
+.bloomberg-news-image{
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+}
+
+.bg-color{
+  background-color: rgb(239, 243, 244);
+}
+
+
+.happening-header{
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.twit-search-bar{
+  border-radius: 50px;
+  margin-top: 5px;
+  min-height: 5ch;
+  min-width: 60ch;
+  color: white;
+  text-align: center;
+}
+
+.heart-img{
+  margin-right: 10px;
+}
+
+.text-paragraph{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
